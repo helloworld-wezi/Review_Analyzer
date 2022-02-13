@@ -9,6 +9,7 @@ Example:
 - "Nasty No flavor. The candy is just red, No flavor. Just plan and chewy. I would never buy them again" is labeled as -1.
 - "YUMMY! You would never guess that they're sugar-free and it's so great that you can eat them pretty much guilt free! i was so impressed that i've ordered some for myself (w dark chocolate) to take to the office. These are just EXCELLENT!" is labeled as 1.
 
+## Complete Setup
 Python 3.6 is used in this project. The complete setup is as follows:
 1. The algorithms used are:
     1. Perceptron Algorithm
@@ -21,6 +22,7 @@ Python 3.6 is used in this project. The complete setup is as follows:
     3. Finding the most impactful words in predicting the positive labels, and
     4. Compare the performance of the method of generating feature vectors
 
+## Conclusions
 The conclusions are as follows:
 1. The validation accuracies of the algorithms:
     1. Perceptron: 71.60%

@@ -6,8 +6,7 @@ The goal of this project is to design a classifier to use for sentiment analysis
 The training set consists of reviews written by Amazon customers for various food products. The reviews, originally given on a 5 point scale, have been adjusted to a +1 or -1 scale, representing a positive or negative review, respectively.
 
 Example:
-- "Nasty No flavor. The candy is just red, No flavor. Just plan and chewy. I would never buy them again" is labeled as -1.
-- "YUMMY! You would never guess that they're sugar-free and it's so great that you can eat them pretty much guilt free! i was so impressed that i've ordered some for myself (w dark chocolate) to take to the office. These are just EXCELLENT!" is labeled as 1.
+![image](https://user-images.githubusercontent.com/87055709/153831205-672bce95-5411-46d0-961c-fe4a95b9e6a6.png)
 
 ## Complete Setup
 Python 3.6 is used in this project. The complete setup is as follows:
@@ -15,7 +14,7 @@ Python 3.6 is used in this project. The complete setup is as follows:
     1. Perceptron Algorithm
     2. Average Perceptron Algorithm
     3. Pegasos Algorithm
-2. The review texts will be converted into feature vectors using a bag of words approach.
+2. The review texts will be converted into feature vectors using a bag of words approach. For example, in a unigram model with dictionary set {Mary, loves, apples, red}, the sentences "Mary loves apples" and "Red apples" is converted into vectors (1, 1, 1, 0) and (0, 0, 1, 1) respectively. In the bigram case, using the dictionary set {Mary loves, loves apples, Red apples}, the sentences will be converted into vectors (1, 1, 0) and (0, 0, 1) respectively.
 3. The goals of the project are to:
     1. Find the best hyperparameter for T (the number of times the feature vector is updated) and Lambda (the weight of the regularization term to avoid overfitting),
     2. Compare the performance and observe the convergence of the algorithms,
